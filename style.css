@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Shantell Sans', cursive;
-  background-color: black;
+  background-color: #000000;
 }
 
 section {
@@ -38,12 +38,12 @@ h1 {
 p {
   overflow-y: hidden;
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 a {
   overflow-y: hidden;
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 
 /*navigationsleiste*/
@@ -181,7 +181,7 @@ header {
 /*footer*/
 footer {
   display: flex;
-  background-color: black;
+  background-color: #000000;
   height: 12dvh;
   justify-content: center;
   align-items: center;
@@ -195,7 +195,7 @@ footer ul {
 }
 footer a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   padding: 2rem;
 }
 footer a:hover {
