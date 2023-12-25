@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Shantell Sans', cursive;
-  background-color: #f8f9fa;
+  background-color: #000000;
 }
 
 section {
@@ -38,6 +38,7 @@ h1 {
 p {
   overflow-y: hidden;
   font-size: 2rem;
+  color: #ffffff;
 }
 a {
   overflow-y: hidden;
