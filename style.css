@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Shantell Sans', cursive;
-  background-color: #000000;
+  background-color: black;
 }
 
 section {
@@ -124,7 +124,6 @@ header {
 .about-us {
   display: flex;
   min-height: 50dvh;
-  background-color: #ffffff;
 }
 
 .about-us-text {
@@ -149,7 +148,7 @@ header {
   display: flex;
   height: 101dvh;
   width: auto;
-  background-color: #000000;
+  background-color: black;
 }
 
 .menu-img {
