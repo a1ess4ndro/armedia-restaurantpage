@@ -108,7 +108,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('content/header-bg.jpg');
+  background-image: url("content/header-bg.jpg");
   background-size: cover;
   height: 88svh;
   width: 100dvw;
