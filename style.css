@@ -252,8 +252,9 @@ footer a:hover {
     display: flex;
     justify-content: left;
     align-items: center;
-    width: auto;
-    height: inherit;
+    width: inherit;
+    height: auto;
+    margin: 1 0 1 0;
   }
 
   .textbox1 {
@@ -262,6 +263,7 @@ footer a:hover {
     width: 55rem;
     height: auto;
     text-align: start;
+    box-shadow: none;
   }
   .textbox1 h1 {
     margin: 2rem 0 0 2rem;
