@@ -228,7 +228,7 @@ footer a:hover {
 /*EDNDE MEDIA QUERY TABLET*/
 
 /*MEDIA QUERY MOBILE*/
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 799px) {
   :root {
     font-size: 8px;
   }
