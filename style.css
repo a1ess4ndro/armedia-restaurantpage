@@ -129,7 +129,7 @@ header {
   height: auto;
   margin: 15rem 0 0 12rem;
   text-align: start;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.666);
 }
@@ -252,6 +252,7 @@ footer a:hover {
     display: flex;
     justify-content: left;
     align-items: center;
+    width: auto;
     height: inherit;
   }
 
@@ -260,9 +261,8 @@ footer a:hover {
     margin: auto;
     width: 55rem;
     height: auto;
-
     text-align: start;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     box-shadow: none;
   }
