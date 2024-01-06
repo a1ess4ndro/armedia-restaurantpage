@@ -251,7 +251,7 @@ footer a:hover {
   .header-text {
     display: flex;
     justify-content: left;
-    align-items: top;
+    align-items: center;
     height: inherit;
     margin-top: 50%;
   }
