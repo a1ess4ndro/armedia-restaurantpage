@@ -262,7 +262,7 @@ footer a:hover {
     height: auto;
 
     text-align: start;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: none;
   }
