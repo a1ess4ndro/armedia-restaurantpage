@@ -245,12 +245,15 @@ footer a:hover {
     height: auto;
   }
 
+  header {
+    overflow: hidden;
+  }
   .header-text {
     display: flex;
     justify-content: left;
-    align-items: flex-start;
-    width: inherit;
+    align-items: top;
     height: inherit;
+    margin-top: 50%;
   }
 
   .textbox1 {
@@ -270,8 +273,9 @@ footer a:hover {
     margin: 1rem 2rem 2rem 2rem;
   }
 
-  .menu {
-    margin: 5svh 5dvw 5svh 0;
+  .menu img {
+    width: 100dvw;
+    height: auto;
   }
 }
 /*EDNDE MEDIA QUERY MOBILE*/
