@@ -251,16 +251,16 @@ footer a:hover {
   .header-text {
     display: flex;
     justify-content: left;
-    align-items: top;
+    align-items: center;
     height: inherit;
-    margin-top: 50%;
   }
 
   .textbox1 {
     display: block;
+    margin: auto;
     width: 55rem;
     height: auto;
-    margin: 15rem 0 0 0;
+
     text-align: start;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
