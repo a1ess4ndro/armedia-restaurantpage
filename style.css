@@ -127,7 +127,7 @@ header {
   display: block;
   width: 55rem;
   height: auto;
-  margin: 15rem 0 0 12rem;
+  margin: 15rem 0 0 10rem;
   text-align: start;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
