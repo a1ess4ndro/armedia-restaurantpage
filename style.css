@@ -262,6 +262,8 @@ footer a:hover {
     width: 55rem;
     height: auto;
     text-align: start;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
     box-shadow: none;
   }
   .textbox1 h1 {
