@@ -144,7 +144,7 @@ header {
 /*über uns*/
 .about-us {
   display: flex;
-  min-height: 50svh;
+  min-height: 100svh;
 }
 
 .about-us-text {
