@@ -49,7 +49,6 @@ a {
   overflow-y: hidden;
   font-size: 2rem;
   color: #ffffff;
-  text-decoration: none;
 }
 
 /*information*/
@@ -70,6 +69,14 @@ a {
 
 /*navigationsleiste*/
 
+.offscreen-menu {
+  display: none;
+}
+
+.ham-navbar {
+  display: none;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -81,9 +88,7 @@ nav {
   align-items: center;
   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.666);
 }
-.ham-navbar {
-  display: none;
-}
+
 .navbar ul {
   display: flex;
   gap: 2rem;
@@ -93,7 +98,6 @@ nav {
 }
 .navbar a {
   text-decoration: none;
-
   font-size: 3.2rem;
 }
 .navbar a:hover {
@@ -333,7 +337,7 @@ footer a:hover {
     max-width: 100dvw;
     position: fixed;
     top: 0;
-    right: -500px;
+    right: -450px;
     display: flex;
     flex-direction: column;
     align-items: center;
