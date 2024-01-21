@@ -332,7 +332,7 @@ footer a:hover {
     max-width: 100dvw;
     position: fixed;
     top: 0;
-    right: -450px;
+    right: -500px;
     display: flex;
     flex-direction: column;
     align-items: center;
