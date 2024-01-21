@@ -155,13 +155,13 @@ header {
 /*über uns*/
 .about-us {
   display: flex;
-  height: fit-content;
+  height: auto;
 }
 
 .about-us-text {
   display: flex;
   flex-direction: column;
-  width: 90rem;
+  width: 75rem;
   height: auto;
   padding: 2rem 0 0 0;
   text-align: center;
@@ -179,7 +179,7 @@ header {
 .menu {
   overflow: hidden;
   display: flex;
-  height: 101svh;
+  height: max-content;
   width: auto;
   background-color: #000000;
 }
