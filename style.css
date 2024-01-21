@@ -117,9 +117,8 @@ header {
   justify-content: center;
   align-items: center;
   background-image: url('content/header-bg.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
   height: 88svh;
   width: 100dvw;
   padding: 0;
@@ -257,17 +256,11 @@ footer a:hover {
   .navbar {
     display: none;
   }
-  .navbar img {
-    width: 50px;
-    height: auto;
-  }
 
   header {
     overflow: hidden;
-    background-image: url('content/header-bg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
   }
+
   .header-text {
     display: flex;
     justify-content: left;
