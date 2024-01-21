@@ -293,19 +293,6 @@ footer a:hover {
 
   /*navbar mit hamburger menu*/
   /* off-screen-menu */
-  .ham-navbar {
-    display: flex;
-  }
-
-  /* nav */
-  nav {
-    padding: 1rem;
-    display: flex;
-    background-color: #000;
-  }
-
-  /* ham menu */
-
   .offscreen-menu {
     z-index: 200;
     background-color: #000;
@@ -341,6 +328,7 @@ footer a:hover {
     gap: 2rem;
   }
 
+  /* ham-nav */
   .ham-navbar {
     display: flex;
     position: relative;
@@ -350,6 +338,7 @@ footer a:hover {
     height: auto;
     position: absolute;
   }
+  /* ham menu */
 
   .ham-menu {
     height: 50px;
