@@ -180,6 +180,9 @@ header {
 .menu {
   overflow: hidden;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto;
   min-height: 100dvh;
   height: max-content;
   width: auto;
