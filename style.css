@@ -300,27 +300,6 @@ footer a:hover {
     display: flex;
   }
 
-  .offscreen-menu {
-    z-index: 100;
-    background-color: #000;
-    height: 100vh;
-    width: 100%;
-    max-width: 450px;
-    position: fixed;
-    top: 0;
-    right: -450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    transition: 0.3s ease;
-  }
-  .offscreen-menu.active {
-    right: 0;
-  }
-
   /* nav */
   nav {
     padding: 1rem;
@@ -331,13 +310,14 @@ footer a:hover {
   /* ham menu */
 
   .offscreen-menu {
+    z-index: 200;
     background-color: #000;
     height: 100vh;
     width: 100%;
     max-width: 100dvw;
     position: fixed;
     top: 0;
-    right: -450px;
+    right: -100dvw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -384,7 +364,7 @@ footer a:hover {
     position: relative;
   }
   .ham-menu span {
-    z-index: 100;
+    z-index: 200;
     height: 0.5rem;
     width: 100%;
     background-color: #fff;
