@@ -119,6 +119,11 @@ header {
   background-image: url('content/header-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
+  /*ios compatibility*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*ende ios compatibility*/
   height: 88svh;
   width: 100dvw;
   padding: 0;
