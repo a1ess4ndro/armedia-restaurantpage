@@ -263,6 +263,8 @@ footer a:hover {
 
   header {
     overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
   }
   .header-text {
     display: flex;
