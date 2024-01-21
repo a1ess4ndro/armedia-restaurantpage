@@ -155,7 +155,8 @@ header {
 /*über uns*/
 .about-us {
   display: flex;
-  height: auto;
+  min-height: 50dvh;
+  height: max-content;
 }
 
 .about-us-text {
@@ -179,6 +180,7 @@ header {
 .menu {
   overflow: hidden;
   display: flex;
+  min-height: 100dvh;
   height: max-content;
   width: auto;
   background-color: #000000;
