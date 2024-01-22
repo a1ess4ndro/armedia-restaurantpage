@@ -5,7 +5,7 @@
 }
 
 * {
-  overflow-x: hidden;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   outline: none;
@@ -21,6 +21,7 @@ body {
 }
 
 section {
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   height: 100svh;
@@ -30,23 +31,23 @@ section {
 
 div {
   display: flex;
-  overflow-y: hidden;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  overflow-y: hidden;
+  overflow: hidden;
   font-size: 3.5rem;
   color: #ff7900;
 }
 p {
-  overflow-y: hidden;
+  overflow: hidden;
   font-size: 2rem;
   color: #ffffff;
 }
 a {
-  overflow-y: hidden;
+  overflow: hidden;
   font-size: 2rem;
   color: #ffffff;
 }
